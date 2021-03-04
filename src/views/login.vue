@@ -58,7 +58,7 @@
 					.then(res => {
 						console.log(this.phone)
 						console.log(res)
-						if(res.data.errmsg != 0){
+						if(res.data.error != 0){
 							return this.$toast.fail(res.data.errmsg)
 						}
 					})

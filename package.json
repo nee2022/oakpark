@@ -12,6 +12,7 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "i": "^0.3.6",
+    "lib-flexible": "^0.3.2",
     "npm": "^7.6.0",
     "vant": "^2.12.7",
     "vue": "^2.6.11",
@@ -33,11 +34,11 @@
     "vue-template-compiler": "^2.6.11"
   },
   "rules": {
-  	"generator-star-spacing": "off",
-  	"no-tabs":"off",
-  	"no-unused-vars":"off",
-  	"no-console":"off",
-  	"no-irregular-whitespace":"off",
-  	"no-debugger": "off"
+    "generator-star-spacing": "off",
+    "no-tabs": "off",
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-irregular-whitespace": "off",
+    "no-debugger": "off"
   }
 }

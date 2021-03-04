@@ -1,0 +1,71 @@
+.container {
+  box-sizing: border-box;
+  border: 1px solid red;
+  height: 100vh;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .h5Tittle {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: heavy;
+    border: 1px solid red;
+
+    .error, .omit {
+      width: 45px;
+    }
+  }
+
+  .pageTittle {
+    height: 8vh;
+    background: #3f76ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+
+    .arrow, .blank {
+      width: 45px;
+    }
+  }
+
+  .pageContent {
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pageContentWrapper {
+      border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      width: 100%;
+
+      .paymentSuccessIcon {
+        width: 85.5px;
+        height: 85.5px;
+        background: green;
+      }
+
+      .paymentSuccessInfo {
+        font-size: 19px;
+        padding: 10px;
+      }
+
+      .jumpFunction {
+        border: 1px solid red;
+        width: 192px;
+        padding: 10px;
+      }
+    }
+  }
+}
